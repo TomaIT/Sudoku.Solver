@@ -3,12 +3,10 @@
 #include <time.h>
 #include "Sudoku.h"
 
-#define WINDOWS
-
 
 
 int main(){
-    FILE *f=fopen("Sudoku_9x9_Complete.txt","r");
+    FILE *f=fopen("Sudoku_3.txt","r");
     clock_t start;
     Sudoku a;
     int i,time=0,t,imax=0,tmax=-1,x=0;
